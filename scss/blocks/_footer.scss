@@ -1,8 +1,28 @@
 .footer {
+    background-color: #E1EDE6;
 
-    &__inner {}
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
 
-    &__left {}
+    }
+
+    &__left {
+        margin-bottom: 10px;
+
+
+    }
+
+    &__left-number {
+        text-decoration: none;
+        color: #2C2D35;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 
     &__right {}
 }

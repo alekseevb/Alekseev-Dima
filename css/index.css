@@ -178,6 +178,7 @@
 }
 .collection__inner {
   margin-top: 70px;
+  padding-bottom: 70px;
   max-width: 540px;
   padding-top: 70px;
 }
@@ -218,6 +219,26 @@
   margin-top: 60px;
 }
 
+.footer {
+  background-color: #E1EDE6;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.footer__left {
+  margin-bottom: 10px;
+}
+.footer__left-number {
+  text-decoration: none;
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 body {
   font-family: "Raleway", sans-serif;
 }/*# sourceMappingURL=index.css.map */
