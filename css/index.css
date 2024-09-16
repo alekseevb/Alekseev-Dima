@@ -1,0 +1,223 @@
+.header {
+  background-color: #E1EDE6;
+}
+.header__inner {
+  padding: 39px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 58px;
+}
+.header__menu-list {
+  display: flex;
+  gap: 58px;
+  align-items: center;
+}
+.header__menu-item a {
+  text-decoration: none;
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.4s;
+}
+.header__menu-item a:hover {
+  color: #598D66;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+.logo p {
+  color: #598D66;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn {
+  border: none;
+  background-color: #E1EDE6;
+  cursor: pointer;
+}
+
+.about__inner {
+  display: flex;
+  align-items: center;
+}
+.about__right-title {
+  color: #2C2D35;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  /* 66px */
+  margin-bottom: 20px;
+}
+.about__right-subtitle {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+  margin-bottom: 60px;
+}
+.about__btn {
+  width: 225px;
+  display: flex;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #598D66;
+  color: #598D66;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.about__btn:hover {
+  background-color: #598D66;
+  color: white;
+}
+
+.reproductions h2 {
+  color: #2C2D35;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  /* 44px */
+  margin-bottom: 30px;
+}
+.reproductions__inner {
+  margin-top: 69px;
+}
+.reproductions__list {
+  display: flex;
+  justify-content: space-around;
+}
+.reproductions__item {
+  background-color: #E1EDE6;
+  padding: 20px;
+}
+.reproductions__item-name {
+  color: #86928B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 20px 0px 10px 0px;
+}
+.reproductions__item-title {
+  color: #2C2D35;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.reproductions__item-material {
+  color: #2C2D35;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.reproductions__item-price {
+  color: #598D66;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.button {
+  display: flex;
+  width: 310px;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  border: 1px solid #598D66;
+  color: #598D66;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #E1EDE6;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #598D66;
+}
+
+.collection {
+  background-image: url(../img/collection-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collection__inner {
+  margin-top: 70px;
+  max-width: 540px;
+  padding-top: 70px;
+}
+.collection__text {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 20px 0;
+  /* 27px */
+}
+.collection__holder {
+  display: flex;
+  align-items: center;
+}
+.collection__holder-title {
+  color: #F4F6F5;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  /* 40px */
+}
+.collection__btn {
+  max-width: 257px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEDB6D;
+  text-decoration: none;
+  color: #2C2D35;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 60px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,56 @@
+.collection {
+    background-image: url(../img/collection-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__inner {
+        margin-top: 70px;
+        max-width: 540px;
+        padding-top: 70px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+
+        margin: 20px 0;
+        /* 27px */
+    }
+
+    &__holder {
+        display: flex;
+        align-items: center;
+    }
+
+    &__holder-title {
+        color: #F4F6F5;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+
+
+        /* 40px */
+    }
+
+    &__btn {
+        max-width: 257px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EEDB6D;
+
+        text-decoration: none;
+        color: #2C2D35;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        margin-top: 60px;
+    }
+}

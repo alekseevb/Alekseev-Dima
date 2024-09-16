@@ -1,0 +1,97 @@
+.reproductions {
+
+    h2 {
+        color: #2C2D35;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        /* 44px */
+
+        margin-bottom: 30px;
+    }
+
+    &__inner {
+        margin-top: 69px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        background-color: #E1EDE6;
+        padding: 20px;
+    }
+
+    &__item-name {
+        color: #86928B;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        margin: 20px 0px 10px 0px;
+    }
+
+    &__item-title {
+        color: #2C2D35;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        margin-bottom: 8px;
+    }
+
+    &__item-material {
+        color: #2C2D35;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        margin-bottom: 30px;
+    }
+
+    &__item-price {
+        color: #598D66;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        margin-bottom: 20px;
+    }
+
+    &__item-button {}
+
+}
+
+.button {
+    display: flex;
+    width: 310px;
+    height: 65px;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+
+    border: 1px solid #598D66;
+
+    color: #598D66;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background-color: #E1EDE6;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #598D66;
+}
